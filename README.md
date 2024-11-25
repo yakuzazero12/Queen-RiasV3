@@ -124,7 +124,7 @@ npm start
 - *Use QUEEN-RIAS at your own risk by keeping this warning in mind.*
   
   #### ```TOTAL REPO VIEWS 🧚```
-![Visitor Count](https://profile-counter.glitch.me/Riasgv2/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/Riasgv3/count.svg)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
