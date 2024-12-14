@@ -1,0 +1,17 @@
+name: whatsapp-bot
+services:
+  - name: whatsapp-bot-service
+    type: web
+    description: A WhatsApp bot built with Baileys
+    instance_type: nano
+    ports:
+      - 3000
+    routes:
+      - name: default
+        path: /
+    env:
+      - key: NODE_ENV
+        value: production
+    build:
+      type: docker
+      dockerfile_path: ./Dockerfile

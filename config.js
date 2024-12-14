@@ -1,14 +1,17 @@
+require('dotenv').config(); // Load environment variables
+
 module.exports = {
-    prefix: '.', // Set your command prefix
-    ownerName: 'Toxxic',
-    ownerNumber: '2348165846414', // Your WhatsApp number in international format
-    mode: 'private', // Default mode; can be 'public' or 'private'
-    region: 'Nigeria', 
-    botName: 'Rias Gremory V3', 
-    exifPack: 'RIAS V3 LOVES',  // The name of your sticker pack
-    exifAuthor: 'Toxxic',       // Your name or the author of the sticker pack
-    timeZone: 'Africa/Lagos',// Your Country Time Zone
-    presenceStatus: 'recording', // Default bot presence status (available, typing, recording, invisible)
-    autoRead: 'false', // true or false for autoread functions
-    autoViewStatus: 'false' //true or false for auto view status
+    prefix: process.env.PREFIX || '.', // Command prefix
+    ownerName: process.env.OWNER_NAME || 'Toxxic', // Owner name
+    ownerNumber: process.env.OWNER_NUMBER || '2348165846414', // Your WhatsApp number
+    mode: process.env.MODE || 'private', // Bot mode: 'public' or 'private'
+    region: process.env.REGION || 'Nigeria', // Region
+    botName: process.env.BOT_NAME || 'Rias Gremory V3', // Bot name
+    exifPack: process.env.EXIF_PACK || 'RIAS V3 LOVES', // Sticker pack name
+    exifAuthor: process.env.EXIF_AUTHOR || 'Toxxic', // Author of the sticker pack
+    timeZone: process.env.TIME_ZONE || 'Africa/Lagos', // Time zone
+    presenceStatus: process.env.PRESENCE_STATUS || 'recording', // Bot presence status
+    autoRead: process.env.AUTO_READ === 'true', // Auto-read messages (true or false)
+    autoViewStatus: process.env.AUTO_VIEW_STATUS === 'true', // Auto-view statuses (true or false)
+    sessionId: process.env.SESSION_ID || '', // WhatsApp session ID
 };
