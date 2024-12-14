@@ -22,9 +22,9 @@
 <br>
     <a href='https://github.com/Toxic1239/Queen-RiasV3/fork' target="_blank"><img alt='Fork' src='https://img.shields.io/badge/-Fork-blue?style=for-the-badge&logo=Github&logoColor=white'/></a>
 
-### 2. GET CREDS.JSON HERE 
+### 2. GET SESSION ID HERE 
 
-<a href='https://toxxic-site.vercel.app/' target="_blank"><img alt='GET CREDS.JSON' src='https://img.shields.io/badge/Click here to get your Creds file-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+<a href='https://toxxic-session.onrender.com/' target="_blank"><img alt='GET CREDS.JSON' src='https://img.shields.io/badge/Click here to get your SESSION ID-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>    
 
 ### STEP 2
