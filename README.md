@@ -33,7 +33,15 @@ ADD CREDS.JSON FILE TO SESSION FOLDER AND DEPLOY BELOW
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+DEPLOYMENT+PROCESS" alt="Typing SVG" /></a>
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-  
+
+
+### DEPLOY ON RENDER
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+ RENDER DEPLOYMENT" alt="Typing SVG" /></a>
+
+  <a href='https://render-rias-deploy.onrender.com/' target="_blank"><img alt='DEPLOY ON RENDER' src='https://img.shields.io/badge/DEPLOY VIA RENDER-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 ### DEPLOY ON REPLIT
 IF YOU DON'T HAVE A REPLIT ACCOUNT CREATE ONE AND DEPLOY 
     <br>
