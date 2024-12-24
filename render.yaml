@@ -1,36 +1,8 @@
 services:
   - type: web
-    name: rias-bot
+    name: Queen-RiasV3
     env: node
+    region: singapore 
+    buildCommand: "npm install"
+    startCommand: "npm start"
     plan: free
-    buildCommand: npm install
-    startCommand: node server.js
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: PREFIX
-        value: '.'
-      - key: OWNER_NAME
-        value: 'Toxxic'
-      - key: OWNER_NUMBER
-        value: '2348165846414'
-      - key: MODE
-        value: 'private'
-      - key: REGION
-        value: 'Nigeria'
-      - key: BOT_NAME
-        value: 'Rias Gremory V3'
-      - key: EXIF_PACK
-        value: 'RIAS V3 LOVES'
-      - key: EXIF_AUTHOR
-        value: 'Toxxic'
-      - key: TIME_ZONE
-        value: 'Africa/Lagos'
-      - key: PRESENCE_STATUS
-        value: 'recording'
-      - key: AUTO_READ
-        value: 'true'
-      - key: AUTO_VIEW_STATUS
-        value: 'true'
-      - key: SESSION_ID
-        value: ''

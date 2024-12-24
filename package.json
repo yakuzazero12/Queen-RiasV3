@@ -9,10 +9,10 @@
         "database": "database",
         "session": "session", 
         "Toxxic": "Toxxic", 
-        "tmp": " tmp"
+        "tmp": "tmp"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node index.js"
     },
     "author": "Toxxic",
     "license": "MIT",
@@ -23,8 +23,7 @@
         "awesome-phonenumber": "^7.2.0",
         "axios": "^1.7.7",
         "chalk": "^4.1.2",
-        "wa-sticker-formatter": "^4.4.4", 
-        "canvas": "^2.11.2", 
+        "wa-sticker-formatter": "^4.4.4",
         "cheerio": "^1.0.0-rc.12",
         "cookie": "^0.5.0",
         "dotenv": "^16.0.1", 
@@ -44,7 +43,6 @@
         "node-cache": "^5.1.2", 
         "performance-now": "^2.1.0",
         "pino": "^9.5.0", 
-        "vcf": "^2.1.2", 
         "vm": "^0.1.0", 
         "simple-git": "^3.27.0", 
         "yt-search": "^2.12.1"

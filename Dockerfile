@@ -1,31 +1,22 @@
-FROM ubuntu:20.04
+FROM node:lts-buster
 
-# Install Node.js and Yarn
 RUN apt-get update && \
-    apt-get install -y curl git && \
-    curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
-    apt-get install -y nodejs && \
-    npm install -g yarn && \
-    apt-get clean
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  npm i pm2 -g && \
+  rm -rf /var/lib/apt/lists/*
+  
+COPY package.json .
+  
+RUN gitclone https://github.com/Toxic1239/Queen-RiasV3
 
-# Create a non-root user
-RUN useradd -m -s /bin/bash node
-USER node
+RUN yarn install 
 
-# Clone the repository
-RUN git clone https://github.com/Toxic1239/Queen-RiasV3.git /home/node/blue
+COPY . .
 
-# Set the working directory
-WORKDIR /home/node/blue
+EXPOSE 3000
 
-# Set permissions and install dependencies
-RUN chmod -R 777 /home/node/blue && \
-    yarn install && \
-    yarn add http
-
-# Copy server.js and start.sh scripts
-COPY server.js .
-COPY start.sh .
-
-# Start the application
-CMD ["bash", "start.sh"]
+CMD ["npm","start" ]
